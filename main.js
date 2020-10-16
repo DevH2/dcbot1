@@ -26,8 +26,8 @@ botClient.on('message', msg =>{
     case 'ping':
       msg.channel.send("You got played.");
       break;
-    case 'kys':
-      msg.channel.send("Put a hairdryer in a bathtub.");
+    case 'syk':
+      msg.channel.send("P.");
       break;
     case 'info':
       if(args[1] === "-v"){
