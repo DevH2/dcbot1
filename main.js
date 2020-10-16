@@ -41,7 +41,7 @@ botClient.on('message', msg =>{
         .setAuthor(NAME + " Help", PFP_LINK )
         .setColor('BLACK')
         .addFields(
-          {name: "Commands", value: "Devin make an html file later and put in dropbox to get a public link \n >help;>info -v;-ping;-kys;play/p;stop. \n Figure out what they do on your own. " }
+          {name: "Commands", value: " ----------" }
         );
       msg.channel.send(helpEmbed);
       break;
