@@ -25,8 +25,8 @@ botClient.on('message', msg =>{
     case 'ping':
       msg.channel.send("You got played.");
       break;
-    case 'kys':
-      msg.channel.send("Put a hairdryer in a bathtub.");
+    case 'ky':
+      msg.channel.send("How is the weather?");
       break;
     case 'info':
       if(args[1] === "-v"){
@@ -40,7 +40,7 @@ botClient.on('message', msg =>{
         .setAuthor(NAME + " Help", PFP_LINK )
         .setColor('BLACK')
         .addFields(
-          {name: "Commands", value: "Devin make an html file later and put in dropbox to get a public link \n >help;>info -v;-ping;-kys;play/p;stop. \n Figure out what they do on your own. " }
+          {name: "Commands", value: "Devin make an html file later and put in dropbox to get a public link \n >help;>info -v;-ping;-ky;play/p;stop. \n Figure out what they do on your own. " }
         );
       msg.channel.send(helpEmbed);
       break;
